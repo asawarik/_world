@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+<<<<<<< HEAD
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 
@@ -19,6 +20,12 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
+=======
+gem 'rails', '3.2.1'
+gem 'sqlite3', '1.3.10'
+gem 'simple_form'
+gem 'carrierwave'
+gem 'will_paginate'
 gem 'jquery-rails'
 
 # Turbolinks not playing nicely with foundation, so remove for now from standard rails app
